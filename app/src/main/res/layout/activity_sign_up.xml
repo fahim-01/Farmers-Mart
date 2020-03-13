@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="45dp"
+    android:layout_marginTop="40dp"
+
+
+
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+
+
+    >
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="180dp"
+
+       android:src="@drawable/login2"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="40dp"
+       android:paddingTop="10dp"
+       android:paddingLeft="50dp"
+
+       />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       android:hint="নাম"
+       android:id="@+id/signUpNameEditTextId"
+       android:layout_margin="10dp"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="#575454"
+       android:inputType="text"
+       android:ems="10"
+       android:background="@drawable/customborder4"
+       />
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       android:hint="উপজেলা"
+       android:id="@+id/signUpVillageEditTextId"
+       android:layout_margin="10dp"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="#575454"
+       android:inputType="text"
+       android:ems="10"
+       android:background="@drawable/customborder4"
+       />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       android:hint="মোবাইল নম্বর"
+       android:id="@+id/signUpPhoneEditTextId"
+       android:layout_margin="10dp"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="#575454"
+       android:inputType="text"
+       android:ems="10"
+       android:background="@drawable/customborder4"
+       />
+
+
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       android:hint="ইমেইল"
+       android:id="@+id/signInEmailEditTextId"
+       android:layout_margin="10dp"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="#575454"
+       android:inputType="textEmailAddress"
+       android:ems="10"
+       android:background="@drawable/customborder4"
+       />
+
+
+
+
+
+   <EditText
+       android:layout_marginLeft="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="22sp"
+       android:textStyle="bold"
+
+       android:hint="পাসওয়ার্ড"
+       android:id="@+id/signInPasswordEditTextId"
+       android:background="@drawable/customborder4"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="#575454"
+       android:ems="10"
+       android:inputType="textPassword"
+
+       />
+
+
+
+
+
+   <Button
+       android:layout_width="230dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+
+
+       android:background="@drawable/customborder"
+       android:text="Create Account"
+       android:textColor="#180202"
+       android:textSize="20sp"
+       android:id="@+id/CreateAccountId"
+
+
+       />
+</LinearLayout>

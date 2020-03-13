@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard"
+    android:background="#F8F2F2"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+
+                android:background="@drawable/happy_farmer"
+
+                >
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:layout_marginTop="40dp"
+                android:background="#F3EDED"
+                android:orientation="horizontal"
+                android:padding="15dp"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="176dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/customborder2"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/quantityId"
+                        android:layout_width="match_parent"
+                        android:layout_height="129dp"
+
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="১০৫ কেজী"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="40dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/quantityTextId"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="জমাকৃত ধানের পরিমাণ"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="176dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/customborder2"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/amountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="129dp"
+
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="৬৫১৩ টাকা"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="40dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/amountTextId"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="প্রাপ্ত অর্থের পরিমান"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="110dp"
+                android:layout_margin="56dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <Button
+
+                    android:id="@+id/historyId"
+                    android:layout_width="280dp"
+                    android:layout_height="100dp"
+
+                    android:layout_margin="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/customborder2"
+                    android:text="পূর্ববর্তী হিসাব"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp"
+
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/customborder1"
+                android:layout_margin="5dp"
+                android:text="ফসল জমাদানের তারিখ"
+                android:textSize="23sp"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/expertId"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/customborder1"
+                android:layout_margin="5dp"
+                android:text="      ধান বিক্রি করবেন?
+                                     বিশেষজ্ঞের পরমর্শ নিন"
+                android:textSize="23sp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/customborder1"
+                android:layout_margin="5dp"
+                android:text="আগামী মাসের বাজার বিশ্লেষণ"
+                android:textSize="23sp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/customborder1"
+                android:layout_margin="5dp"
+                android:text="বাজার সংক্রান্ত মতামত ও জিজ্ঞাসা"
+                android:textSize="23sp"
+                >
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

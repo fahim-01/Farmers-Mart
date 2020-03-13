@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:background="#F7F5F5"
+    android:orientation="vertical"
+    android:paddingLeft="45dp"
+    tools:context=".SignUp"
+
+
+    >
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="16dp"
+
+        android:src="@drawable/logo"
+
+        />
+
+    <EditText
+        android:id="@+id/signInEmailEditTextId"
+        android:layout_width="297dp"
+        android:layout_height="71dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/customborder4"
+        android:ems="10"
+        android:hint="ইমেইল"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#575454"
+        android:textSize="22sp"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/signInPasswordEditTextId"
+        android:layout_width="299dp"
+        android:layout_height="62dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/customborder4"
+        android:ems="10"
+
+        android:hint="পাসওয়ার্ড"
+        android:inputType="textPassword"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#575454"
+        android:textSize="22sp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/signIn_id"
+        android:layout_width="239dp"
+
+        android:layout_height="56dp"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:text="প্রবেশ করুণ"
+      android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/signUp_id"
+        android:layout_width="239dp"
+
+        android:layout_height="56dp"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:gravity="center"
+        android:text="নতুন একাউন্ট খুলুন"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+
+
+        />
+</LinearLayout>

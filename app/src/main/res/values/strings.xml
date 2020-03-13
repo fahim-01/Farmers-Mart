@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">MaterialDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="app_name1">Admin panel</string>
+
+    <string name="Dashboard">Dashboard</string>
+    <string name="Top_Voters">Top Voters</string>
+    <string name="top_idea">top idea submitters</string>
+    <string name="home_page">home page</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_item_attachment">Attachment</string>
+    <string name="nav_item_images">Images</string>
+    <string name="nav_item_location">My Location</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="drawer_header_text">Drawer Header</string>
+    <string name="second_activity_text">There are plenty of horror stories about student accommodation around. Earlier this month, media reports about student accommodation in Washington DC featured footage of cracks in the ceiling, moldy bathrooms and broken appliances. One student complained of an air conditioning filter which was allegedly “caked in filth” and not replaced until two weeks after she’d reported it. </string>
+    <string-array name="item_name">
+
+        <item>আমন আইআর-২০,৫৬০</item>
+        <item>আমন আইআর-১৭,৬২৩</item>
+        <item>ব্রি হাইব্রিডআর-২৩,১৭৫</item>
+        <item>কটকতারা-২০:৪১,৯২৩</item>
+        <item>ইরাটম-আউশ,৭৫৬</item>
+        <item>বিআর-৪ ব্রিশাই,৯৯৩</item>
+        <item>আমন আইআর-২:৪,৯২৩</item>
+        <item>বিআর-১ হাসিবোরো,৯৭৩</item>
+        <item>বিনাধান-৮ বোরো,৮৬২</item>
+        <item>বিনাধান-৫ বোরো,৩৬৫</item>
+        <item>আমন আইআর-২,১৩৭</item>
+        <item>হাসিকলমী- ২১,৯৬১</item>
+        <item> খৈয়া বোরো-১৪,২৩৬</item>
+        <item>টোপা বোরো-১৭,৫৬৩</item>
+        <item>ব্রিহাইব্রিড ধান-৪,৯৬১</item>
+        <item>ব্রিহাইব্রিড ধান-২,৭১৬</item>
+        <item>রিআইআর -২০,৫৬০</item>
+        <item>আমন আইআর-১৭,৬২৩</item>
+        <item>ব্রি হাইব্রিডআর-২৩,১৭৫</item>
+        <item>কটকতারা-২০:৪১,৯২৩</item>
+        <item>ইরাটম-আউশ/বোরো,৭৫৬</item>
+        <item>বিআর-রিশাইল আমন,৯৯৩</item>
+        <item>আমন আইআর-২০:৪,৯২৩</item>
+        <item>বিআর-১ হাসিবোরো,৯৭৩</item>
+        <item>বিনাধান -৮ বোরো,৮৬২</item>
+        <item>বিনাধান -৫ বোরো,৩৬৫</item>
+        <item>আমন আইআর-২,১৩৭</item>
+        <item>বিনাধান -৮ বোরো,৮৬২</item>
+        <item>ৈয়া বোরো-১৪,২৩৬</item>
+        <item>টোপা বোরো-১৭,৫৬৩</item>
+        <item>ব্রি হাইব্রিড ধান-৪,৯৬১</item>
+        <item>ব্রি হাইব্রিড ধান-২,৭১৬</item>
+
+
+    </string-array>
+
+    <string-array name="PreviousRecord">
+
+        <item>১১/০১/২০১৬,৯৪৬</item>
+        <item>২১/০২/২০১৬,৭৬৮</item>
+        <item>২২/০৩/২০১৬,৫৪৬</item>
+        <item>১৭/০৪/২০১৬,৯৮২</item>
+        <item>২৬/০৫/২০১৬,১২৩</item>
+        <item>২৯/০৭/২০১৬,১১০</item>
+        <item>১৩/০৮/২০১৬,৫৩৬</item>
+        <item>২৬/০৯/২০১৬,৬৯৪</item>
+        <item>২২/১০/২০১৬,৫৪৬</item>
+        <item>৩০/১২/২০১৬,৯৮২</item>
+        <item>১১/০১/২০১৭,৯৪৬</item>
+        <item>২১/০২/২০১৭,৭৬৮</item>
+        <item>২২/০৩/২০১৭,৫৪৬</item>
+        <item>১৭/০৪/২০১৭,৯৮২</item>
+        <item>২৬/০৫/২০১৭,১২৩</item>
+        <item>২৯/০৭/২০১৭,১১০</item>
+        <item>১৩/০৮/২০১৭,৫৩৬</item>
+        <item>২৬/০৯/২০১৭,৬৯৪</item>
+        <item>২২/১০/২০১৭,৫৪৬</item>
+        <item>৩০/১২/২০১৭,৯৮২</item>
+        <item>০৬/০১/২০১৮,৬৫২</item>
+        <item>০৯/০২/২০১৮,৭৬৯</item>
+        <item>১১/০১/২০১৮,৯৪৬</item>
+        <item>২১/০২/২০১৮,৭৬৮</item>
+        <item>২২/০৩/২০১৮,৫৪৬</item>
+        <item>১৭/০৪/২০১৮,৯৮২</item>
+        <item>২৬/০৫/২০১৮,১২৩</item>
+        <item>২৯/০৭/২০১৮,১১০</item>
+        <item>১৩/০৮/২০১৮,৫৩৬</item>
+        <item>২৬/০৯/২০১৮,৬৯৪</item>
+        <item>২২/১০/২০১৮,৫৪৬</item>
+        <item>৩০/১২/২০১৮,৯৮২</item>
+        <item>১১/০১/২০১৯,৯৪৬</item>
+        <item>২১/০২/২০১৯,৭৬৮</item>
+        <item>২২/০৩/২০১৯,৫৪৬</item>
+        <item>১৭/০৪/২০১৯,৯৮২</item>
+        <item>২৬/০৫/২০১৯,১২৩</item>
+        <item>২৯/০৭/২০১৯,১১০</item>
+        <item>১৩/০৮/২০১৯,৫৩৬</item>
+        <item>২৬/০৯/২০১৯,৬৯৪</item>
+        <item>২২/১০/২০১৯,৫৪৬</item>
+        <item>৩০/১২/২০১৯,৯৮২</item>
+        <item>০৬/০১/২০২০,৬৫২</item>
+        <item>০৯/০২/২০২০,৭৬৯</item>
+
+
+    </string-array>
+
+
+    <string name="বাজার_দর_বাটন">বাজার দর</string>
+    <string name="যোগাযোগ_বাটন">যোগাযোগ</string>
+    <string name="লক্ষ্যমাত্রা_বাটন">লক্ষ্যমাত্রা</string>
+    <string name="প্রশ্ন_ব্যাংক">প্রশ্নব্যাংক</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">ব্যক্তিগত তথ্য</string>
+    <string name="menu_gallery">ব্যক্তিগত তথ্য পরিবর্তণ</string>
+    <string name="menu_slideshow">বাহির</string>
+
+
+</resources>

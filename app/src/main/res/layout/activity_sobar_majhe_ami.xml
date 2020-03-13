@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard"
+    android:background="#F8F2F2"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="282dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sobar_majhe_ami2"
+
+                >
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:layout_marginTop="40dp"
+                android:background="#F3EDED"
+                android:orientation="horizontal"
+                android:padding="15dp"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="176dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/customborder4"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/quantityId"
+                        android:layout_width="match_parent"
+                        android:layout_height="129dp"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="১৬ তম"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="40dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/quantityTextId"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="আপনার অবস্থান"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="176dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/customborder4"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/amountId"
+                        android:layout_width="match_parent"
+                        android:layout_height="129dp"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="৩২১ জন"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="40dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/amountTextId"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="সর্বমোট কৃষক"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="110dp"
+                android:layout_margin="56dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <Button
+
+                    android:id="@+id/historyId"
+                    android:layout_width="280dp"
+                    android:layout_height="100dp"
+
+                    android:layout_margin="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/customborder"
+                    android:text="সেরা কৃষক ২০১৯"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp"
+
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
